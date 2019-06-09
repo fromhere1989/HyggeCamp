@@ -1,0 +1,44 @@
+.footer {
+  grid-area: footer;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.footer_menu_item {
+  color: white;
+  &:hover {
+    color: #750000;
+  }
+}
+
+.footer_contacts_wrap {
+  margin-bottom: 80px;
+  line-height: 27px;;
+}
+
+.footer_middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 180px;
+}
+
+.socials {
+  margin-bottom: 10px;
+}
+
+.socials_link {
+  margin-left: 20px;
+}
+
+.socials_img-fb {
+  margin-right: 18px;
+}
+
+.footer_menu_wrap {
+  margin-bottom: 80px;
+  line-height: 27px;;
+}
