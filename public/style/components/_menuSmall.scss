@@ -1,0 +1,64 @@
+.menu_small {
+  display: none;
+
+  @media screen and (max-width: $small) {
+    grid-area: menu;
+    height: 34px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+.menuSmall_button {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3e3b3b;
+  cursor: pointer;
+  color: white;
+}
+
+.contacts_button {
+  position: relative;
+  border-left: 1px solid white;
+  &:hover {
+    color: #750000;
+  }
+}
+
+.menuSmall_contacts_wrapper {
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  width: inherit;
+  margin-top: 34px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+  transition: 0.4s;
+  opacity: 0;
+}
+
+.showContacts {
+  opacity: 1;
+  z-index: 6;
+}
+
+.menuSmall_contacts_item {
+  background-color: #3e3b3b;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid white;
+  font-size: 13px;
+  &:hover {
+    color: #750000;
+  }
+}

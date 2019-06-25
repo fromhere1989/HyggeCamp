@@ -4,10 +4,13 @@ import Main from './Main.js';
 import Price from './Price.js';
 import WayTo from './WayTo.js';
 import Faq from './Faq.js';
+import Facility from './Facility.js';
 import Gallary from './Gallary.js';
 import Header from '../Header.js';
 import Footer from '../Footer.js';
 import Menu from '../../components/Menu.js';
+import MenuSmall from '../../components/MenuSmall.js';
+
 
 class Router extends Component {
   render() {
@@ -17,10 +20,12 @@ class Router extends Component {
           <div className="grid_layout_header">
             <Header />
             <Menu className="menu"/>
+            <MenuSmall />
           </div>
           <div className="grid_layout_content">
               <Route exact path="/" component={Main} />
               <Route path="/price" component={Price} />
+              <Route path="/facility" component={Facility} />
               <Route path="/location" component={WayTo} />
               <Route path="/faq" component={Faq} />
               <Route path="/gallary" component={Gallary} />

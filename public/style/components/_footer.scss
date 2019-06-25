@@ -16,7 +16,11 @@
 
 .footer_contacts_wrap {
   margin-bottom: 80px;
-  line-height: 27px;;
+  line-height: 27px;
+
+  @media screen and (max-width: $small) {
+    display: none;
+  }
 }
 
 .footer_middle {
@@ -24,10 +28,26 @@
   flex-direction: column;
   align-items: center;
   margin-top: 180px;
+
+  @media screen and (max-width: $small) {
+    margin-top: 10px;
+  }
 }
 
-.socials {
+.socials_large {
   margin-bottom: 10px;
+
+  @media screen and (max-width: $small) {
+    display: none;
+  }
+}
+
+.socials_small {
+  display: none;
+
+  @media screen and (max-width: $small) {
+    display: flex;
+  }
 }
 
 .socials_link {
@@ -40,5 +60,9 @@
 
 .footer_menu_wrap {
   margin-bottom: 80px;
-  line-height: 27px;;
+  line-height: 27px;
+
+  @media screen and (max-width: $small) {
+    display: none;
+  }
 }

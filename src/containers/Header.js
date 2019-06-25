@@ -9,11 +9,12 @@ class Header extends Component {
   render(){
     return(
       <div className="header">
-        <Location />
+        <Location className="header_location" />
         <Logo />
         <div className="header_contacts_wrap">
-          <Contacts />
-          <Button name="ЗАБРОНИРОВАТЬ"/>
+          <Contacts className="header_contacts"/>
+          <h1 className="logo_name-small">HYGGE CAMP</h1>
+          <Button className="button_wrapper" name="ЗАБРОНИРОВАТЬ"/>
         </div>
       </div>
     );

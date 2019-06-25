@@ -1,10 +1,44 @@
 .capture {
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 15px;
+ }
+
+ .capture_carusel {
+   min-width: 60%;
+ }
+
+ .capture_img1 {
+   min-width: 100%;
+   height: auto;
+
+   @media screen and (max-width: $xsmall) {
+     max-width: 320px;
+   }
  }
 
 .capture_text {
-  font-size: 22px;
+  text-align: center;
+  width: 70%;
+  font-size: 19px;
+  line-height: 30px;
+  z-index: 3;
+
+  @media screen and (max-width: $small) {
+    font-size: 18px;
+    width: 100%;
+  }
+}
+
+.capture_link {
+  font-size: 14px;
+}
+
+.capture_info {
+  font-size: 17px;
+}
+
+.about_button {
+  margin-bottom: 12px;
 }

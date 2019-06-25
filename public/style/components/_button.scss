@@ -1,3 +1,6 @@
+.button_wrapper {
+}
+
 .button {
   background-color: #750000;
   height: 34px;
@@ -9,5 +12,13 @@
   transition: 0.5s;
   &:hover {
     background-color: #3e3b3b;
+  }
+
+  @media screen and (max-width: $small) {
+    height: 30px;
+    width: auto;
+    margin-top: 14px;
+    padding: 10px;
+    padding-bottom: 26px;
   }
 }

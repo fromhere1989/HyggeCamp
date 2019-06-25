@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
-import foto1 from '../../public/images/hc-foto1.jpg';
+import capture_img1 from "../../public/images/capture_img1.webp"
 
 class Carusel extends Component {
   render() {
     return(
-      <div className="carusel"><img src={foto1}/></div>
+      <div className="carusel">
+        <div className="capture_carusel">
+          <img className="capture_img1" src={capture_img1}/>
+        </div>
+      </div>
     );
   }
 }

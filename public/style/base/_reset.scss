@@ -6,9 +6,14 @@
 
 a {
 	text-decoration: none;
+	color: white;
 	transition: 0.5s;
 }
 
 li {
 	list-style-type: none;
+}
+
+.phone_link {
+	color: inherit;
 }

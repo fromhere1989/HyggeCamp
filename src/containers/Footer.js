@@ -10,8 +10,8 @@ class Footer extends Component {
       <div className="footer">
         <div className="footer_contacts_wrap">
           <h2>Контакты</h2>
-          <Contacts />
-          <Location />
+          <Contacts className="footer_contacts"/>
+          <Location className="footer_location"/>
         </div>
         <div className="footer_middle">
           <Socials />

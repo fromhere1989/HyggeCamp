@@ -7,9 +7,16 @@ class Socials extends Component {
   render(){
     return(
       <div className="socials">
-        <a className="socials_link"><img className="socials_img vk" src={vk}/></a>
-        <a className="socials_link"><img className="socials_img inst" src={inst}/></a>
-        <a className="socials_link"><img className="socials_img socials_img-fb" src={fb}/></a>
+        <div className="socials_large">
+          <a className="socials_link" href="https://vk.com/hygge.hotel" target="_blank"><img className="socials_img vk" src={vk}/></a>
+          <a className="socials_link" href="https://www.instagram.com/hygge.camp/" target="_blank"><img className="socials_img inst" src={inst}/></a>
+          <a className="socials_link" href="https://web.facebook.com/hyggecamp.ru/?_rdc=1&_rdr" target="_blank"><img className="socials_img socials_img-fb" src={fb}/></a>
+        </div>
+        <div className="socials_small">
+          <a className="socials_link" href="https://vk.com/hygge.hotel" target="_blank"><img className="socials_img vk" /></a>
+          <a className="socials_link" href="https://www.instagram.com/hygge.camp/" target="_blank"><img className="socials_img inst" /></a>
+          <a className="socials_link" href="https://web.facebook.com/hyggecamp.ru/?_rdc=1&_rdr" target="_blank"><img className="socials_img socials_img-fb" /></a>
+        </div>
       </div>
     );
   }

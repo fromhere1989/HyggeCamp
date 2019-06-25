@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import boat from '../../public/images/boat.png';
-import img1 from '../../public/images/img1.webp';
-import img2 from '../../public/images/img2.webp';
-import img3 from '../../public/images/img3.webp';
-import img4 from '../../public/images/img4.webp';
-import img5 from '../../public/images/img5.webp';
-import img6 from '../../public/images/img6.webp';
+import boat from '../../../public/images/boat.png';
+import img1 from '../../../public/images/img1.webp';
+import img2 from '../../../public/images/img2.webp';
+import img3 from '../../../public/images/img3.webp';
+import img4 from '../../../public/images/img4.webp';
+import img5 from '../../../public/images/img5.webp';
+import img6 from '../../../public/images/img6.webp';
 
 
-class Infobox extends Component {
+class Facility extends Component {
   render() {
     return(
       <div className="infobox">
@@ -67,4 +67,4 @@ class Infobox extends Component {
   }
 }
 
-export default Infobox;
+export default Facility;

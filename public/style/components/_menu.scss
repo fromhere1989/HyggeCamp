@@ -1,10 +1,14 @@
 .menu {
   grid-area: menu;
   height: 34px;
+  font-size: 14px;
   display:flex;
   margin-left: 10px;
   margin-right: 10px;
-  background-color: #3e3b3b;
+
+  @media screen and (max-width: $small) {
+    display: none;
+  }
 }
 
 .menu_item {
@@ -14,8 +18,14 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  background-color: #3e3b3b;
   color: white;
   &:hover {
     color: #750000;
+  }
+
+  @media screen and (max-width: $small) {
+    height: 40px;
+    border-bottom: 2px solid white;
   }
 }
