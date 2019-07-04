@@ -19,16 +19,12 @@
   justify-content: space-around;
   align-items: center;
   background-color: #3e3b3b;
-  cursor: pointer;
   color: white;
 }
 
 .contacts_button {
   position: relative;
   border-left: 1px solid white;
-  &:hover {
-    color: #750000;
-  }
 }
 
 .menuSmall_contacts_wrapper {
@@ -42,7 +38,7 @@
   align-items: flex-end;
   flex-direction: column;
   justify-content: center;
-  transition: 0.4s;
+  transition: 0.3s;
   opacity: 0;
 }
 
@@ -58,7 +54,4 @@
   padding-bottom: 5px;
   border: 1px solid white;
   font-size: 13px;
-  &:hover {
-    color: #750000;
-  }
 }

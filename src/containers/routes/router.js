@@ -28,7 +28,7 @@ class Router extends Component {
               <Route path="/facility" component={Facility} />
               <Route path="/location" component={WayTo} />
               <Route path="/faq" component={Faq} />
-              <Route path="/gallary" component={Gallary} />
+            //<Route path="/gallary" component={Gallary} />
           </div>
           <div className="grid_layout_footer">
             <Footer />

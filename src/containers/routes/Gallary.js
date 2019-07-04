@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import Carusel from '../../components/Carusel.js';
+import Slider from '../../components/Slider.js';
 
 class Gallary extends Component {
   render() {
     return(
-        <Carusel />
+        <Slider />
     );
   }
 }

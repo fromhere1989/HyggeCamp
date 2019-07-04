@@ -65,3 +65,14 @@
     width: 312px;
   }
 }
+
+.infobox_img {
+
+  @media screen and (max-width: $medium) {
+    max-width: 520px;
+  }
+
+  @media screen and (max-width: $xsmall) {
+    max-width: 320px;
+  }
+}

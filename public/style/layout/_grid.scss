@@ -1,12 +1,12 @@
 .grid_layout {
   position: relative;
   display: grid;
-  grid-template-columns: auto minmax(320px, 1200px) auto;
+  grid-template-columns: auto;
   grid-template-rows: 213px auto 301px;
   grid-template-areas:
-  " header_layout header_layout header_layout "
-  " . content . "
-  " footer_layout footer_layout footer_layout ";
+  " header_layout "
+  " content "
+  " footer_layout ";
   font-family: georgia, palatino, "book antiqua", "palatino linotype", serif;
   font-size: 15px;
   line-height: 26px;
@@ -16,20 +16,25 @@
     font-size: 13px;
     line-height: 20px;
   }
+
+  @media screen and (min-width: $large) {
+    grid-template-columns: auto minmax(320px, 1200px) auto;
+    grid-template-areas:
+    " header_layout header_layout header_layout "
+    " . content . "
+    " footer_layout footer_layout footer_layout ";
+  }
 }
 
 .grid_layout_header {
   grid-area: header_layout;
   display: grid;
-  grid-template-columns: auto minmax(320px, 1200px) auto;
+  grid-template-columns: auto minmax(auto, 1200px) auto;
   grid-template-rows: auto;
   grid-template-areas:
   " . header . "
   " . menu . ";
   background-color: #7d7979;
-
-  @media screen and (max-width: $small) {
-  }
 }
 
 .grid_layout_content {
@@ -46,7 +51,7 @@
 .grid_layout_footer {
   grid-area: footer_layout;
   display: grid;
-  grid-template-columns: auto minmax(320px, 800px) auto;
+  grid-template-columns: auto minmax(auto, 800px) auto;
   grid-template-rows: auto;
   grid-template-areas:
   " . footer . ";

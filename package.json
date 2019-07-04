@@ -3,17 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.html",
-
   "scripts": {
-    "dev": "parcel ./src/index.html"
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html"
   },
   "author": "fromhere1989",
   "repository": {
-  "type": "git",
-  "url": "https://github.com/fromhere1989/HyggeCamp"
+    "type": "git",
+    "url": "https://github.com/fromhere1989/HyggeCamp"
   },
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
     "parcel-bundler": "^1.12.3",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",

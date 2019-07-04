@@ -23,10 +23,10 @@ class Facility extends Component {
             лаундж зону с грилем и уличной мебелью. Интерьеры шатров украшены в
             скандинавском стиле
           </span>
-          <img className="container1_img" src={img1}/>
+          <img className="infobox_img container1_img" src={img1}/>
         </div>
         <div className="container container2">
-          <img className="container2_img" src={img2}/>
+          <img className="infobox_img container2_img" src={img2}/>
           <span className="container_text container2_text">
             <h2 className="container2_title">Территория кемпинг-отеля</h2><br/>
             На территории кемпинг-отеля находится лобби бар, СПА зона с деревянной
@@ -43,11 +43,11 @@ class Facility extends Component {
               окрестностях кемпинг-отеля много природных достопримечательностей - Гора Филина,
               Змеиная Гора, Ладожские Шхеры. В часе езды - Горный парк Рускеала
             </span>
-            <img className="container3_img1" src={img3}/>
+            <img className="infobox_img container3_img1" src={img3}/>
           </div>
           <div className="container3_2">
-            <img className="container3_img2" src={img4}/>
-            <img className="container3_img3" src={img5}/>
+            <img className="infobox_img container3_img2" src={img4}/>
+            <img className="infobox_img container3_img3" src={img5}/>
           </div>
         </div>
         <div className=" container4">
@@ -60,7 +60,7 @@ class Facility extends Component {
             чтобы узнать подробнее про все развлечения и забронировать экскурсии в
             республике Карелия!
           </span>
-          <img className="container4_img" src={img6}/>
+          <img className="infobox_img container4_img" src={img6}/>
         </div>
       </div>
     );

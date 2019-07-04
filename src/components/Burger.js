@@ -1,15 +1,17 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+
 class Burger extends Component {
 
   OpenMenu() {
-  const content = document.getElementById('burger_menu');
-  content.classList.toggle('showMenu')
-}
+  const menu = document.getElementsByClassName('burger_menu')[0];
+  menu.classList.toggle('showMenu')
+  }
+
 
   render() {
     return(
-      <div className="burger_wrapper" onClick={() => this.OpenMenu()}>
+      <div className="burger_wrapper" onClick={() => this.OpenMenu()} >
         <span className="burger" >
           Меню
         </span>
@@ -24,8 +26,6 @@ class Burger extends Component {
           ><li className="burger_menu_item">КАК ДОЕХАТЬ</li></Link>
           <Link to="/faq"
           ><li className="burger_menu_item">ВОПРОС/ОТВЕТ</li></Link>
-          <Link to="/gallary"
-          ><li className="burger_menu_item">ГАЛЕРЕЯ</li></Link>
         </ul>
       </div>
     );

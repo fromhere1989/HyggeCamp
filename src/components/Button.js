@@ -18,7 +18,7 @@ class Button extends Component {
         <div className="form_background" onClick={() => this.handleClick()}></div>
           <div className="form_box">
             <div className="form_border">
-              <div className="form_cancel" onClick={() => this.handleClick()}>X</div>
+              <div className="form_cancel" onClick={() => this.handleClick()}>&#10006;</div>
               <div className="form_content">
                 <span className="form_text">Для того, чтобы забронировать шатёр или<br/>
                 мероприятие, позвоните по номеру телефона<br/>

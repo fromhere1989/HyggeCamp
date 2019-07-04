@@ -1,3 +1,7 @@
 node_modules/
 dist
 .cache
+LeftArrow.js
+RightArrow.js
+Slide.js
+Slider.js

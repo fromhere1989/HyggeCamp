@@ -15,8 +15,6 @@ class Menu extends Component {
           ><li >КАК ДОЕХАТЬ</li></Link>
           <Link to="/faq" className={this.props.className + `_item`}
           ><li >ВОПРОС/ОТВЕТ</li></Link>
-          <Link to="/gallary" className={this.props.className + `_item`}
-          ><li >ГАЛЕРЕЯ</li></Link>
         </ul>
     );
   }
