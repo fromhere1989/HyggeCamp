@@ -1,31 +1,13 @@
 # HyggeCamp
 
-Меня зовут Гришин Владимир, я начинающий программист.
-Я учусь всего год и выкладываю свои попытки здесь.
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+Hellow! Here I'm learning how to work with React.js
 
-Данный сайт копируется с сайта моих друзей - http://hyggecamp.ru/
-построеном на Wix.
+This project is a clone of my friend's website - http://hyggecamp.ru/
+that was build on Wix.
 
-Здесь я учусь использовать в своих проэктах
-Reactjs и SASS,
-а так же оттачиваю адаптивную верстку.
-
-В перспективе:
-- разобраться в SASS, добавив переменные,
-- запустить галерею-карусель и слайдер на главной,
-- доделать выподающие меню, чтоб они закрывались при нажатии на любое место,
-- разобраться в иконках - svg или png
-- добавить кроссбраузерность
-- изучить изоморфный подход - при перезагрузке роутов, сервер выдает cannot GET.
-
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
-
-Если вас вдруг заинтересует что-либо в моей работе,
-Я всегда рад обратной связи.
-
-С уважением, Гришин Владимир.
-
-Email: fromhere1989@gmail.com
-Phone: +7-(981) 890-57-14
-Russia, Saint-Petersburg.
+Next steps:
+- Learn about server side rendering, to make this project isomorphic;
+- Add form logic - to save guests data and questions;
+- Create an admin panel;
+- Make some styles;
+- Learn how svg works;
